@@ -1,0 +1,17 @@
+{
+  "name": "es4x-test-reproducer",
+  "version": "1.0.0",
+  "description": "Simple reproducer",
+  "repository": "https://github.com/chefhoobajoob/es4x-test-reproducer.git",
+  "license": "UNLICENSED",
+  "dependencies": {},
+  "devDependencies": {
+    "@es4x/create": "0.16.0",
+    "@vertx/unit": "^4.2.0"
+  },
+  "scripts": {
+    "test-mjs": "es4x test lib/main.spec.mjs",
+    "test-js": "es4x test lib/main.spec.js",
+    "versions": "es4x versions"
+  }
+}
