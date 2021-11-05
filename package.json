@@ -12,6 +12,7 @@
   "scripts": {
     "test-mjs": "es4x test lib/main.spec.mjs",
     "test-js": "es4x test lib/main.spec.js",
+    "test-index": "es4x test index.test.mjs",
     "versions": "es4x versions"
   }
 }
