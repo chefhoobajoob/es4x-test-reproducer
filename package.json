@@ -10,9 +10,9 @@
     "@vertx/unit": "^4.2.0"
   },
   "scripts": {
-    "test-mjs": "es4x test lib/main.spec.mjs",
-    "test-js": "es4x test lib/main.spec.js",
-    "test-index": "es4x test index.test.mjs",
+    "test-mjs": "es4x test mjs:lib/main.spec.mjs",
+    "test-js": "es4x test js:lib/main.spec.js",
+    "test-index": "es4x test mjs:index.test.mjs",
     "versions": "es4x versions"
   }
 }
