@@ -6,7 +6,7 @@
   "license": "UNLICENSED",
   "dependencies": {},
   "devDependencies": {
-    "@es4x/create": "0.16.0",
+    "@es4x/create": "0.16.1",
     "@vertx/unit": "^4.2.0"
   },
   "scripts": {
